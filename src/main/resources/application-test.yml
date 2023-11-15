@@ -1,0 +1,19 @@
+# Test Environment configuration,
+server:
+  port: 12
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/students(test)?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: boss
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    generate-ddl: true
+  security:
+    user:
+      name: datajpa
+      password: datajpa
