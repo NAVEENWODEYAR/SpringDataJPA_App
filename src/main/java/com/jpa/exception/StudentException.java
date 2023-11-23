@@ -1,5 +1,6 @@
 package com.jpa.exception;
 
-public class StudentException {
+public class StudentException 
+{
 
 }
