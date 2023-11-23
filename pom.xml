@@ -94,6 +94,7 @@
 	</dependencies>
 	
 	<build>
+		<finalName>DataJPA_App</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
