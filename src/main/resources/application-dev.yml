@@ -15,5 +15,5 @@ spring:
     generate-ddl: true
   security:
     user:
-      name: datajpa
-      password: datajpa
+      name: root
+      password: root
