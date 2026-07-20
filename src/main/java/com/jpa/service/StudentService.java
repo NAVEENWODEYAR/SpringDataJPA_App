@@ -20,7 +20,7 @@ public class StudentService{
 	//1. INSERT INTO table_name VALUES();
 	public Student insertStudent(Student student){
 		Student st =  studentRepo.save(student);
-		log.info("Student {},saved to the database",student.getFaName());
+		log.info("Student record {},saved/persisted to the database",student.getFaName());
 		return st;
 	}
 	
