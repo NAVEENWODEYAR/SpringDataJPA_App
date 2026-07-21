@@ -30,6 +30,7 @@ public class StudentController
 	@PostMapping("/insertStudent")
 	public Student insertStudent(@RequestBody Student student)
 	{
+System.out.println("Inserting new student record");
 		return studentService.insertStudent(student);
 	}
 	
