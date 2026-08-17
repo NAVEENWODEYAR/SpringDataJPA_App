@@ -27,7 +27,7 @@ public class StudentService{
 	// 2. Select * from table_name,
 	public List<Student> getStudents(){
 		List<Student> students = studentRepo.findAll();
-  log.info("fetch Student list");
+  log.info("Fetching Student records");
 		return students;
 	}
 	
