@@ -74,6 +74,7 @@ System.out.println("Inserting new student record");
 	@GetMapping("/getStudentASCfirstName")
 	public List<Student> getStudentsASCFaname()
 	{
+System.out.println("Fetching student records ascending by firstName.");
 		return studentService.getStudentsASCFaname();
 	}
 }
